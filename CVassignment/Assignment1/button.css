@@ -1,0 +1,54 @@
+* {
+    border: 0;
+    padding: 0;
+  }
+  table,th,tr,td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.myc{
+    font-size: 20px;
+  }
+ 
+  .center .myc{
+    padding: 10px 0 30px 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;    
+    color: black;
+    
+  }
+  tr:hover{
+    background-color: #D6EEEE;}
+  .center .sn {
+    text-align: center;
+  }
+  .center th {
+    font-size: 22px;
+  }
+
+
+  button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
